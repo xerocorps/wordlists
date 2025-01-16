@@ -1,0 +1,12 @@
+amazonaws.com
+cloudfront.net
+elasticbeanstalk.com
+amplifyapp.com
+storage.googleapis.com
+appspot.com
+firebaseapp.com
+cloudfunctions.net
+blob.core.windows.net
+azureedge.net
+azurewebsites.net
+database.windows.net
