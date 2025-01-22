@@ -1,0 +1,159 @@
+ssti{{7*7}}
+ssti[[7*7]]
+ssti{{4+'9'}}
+ssti<%= 7 * 7 %>
+ssti${7*7}
+ssti${{7*7}}
+ssti@(40+9)
+ssti#{7*7}
+ssti#{ 7 * 7 }
+ssti<%=%207%20*%207%20%>
+ssti#{%207%20*%207%20}
+ssti{7*7}
+ssti${7 * 7}
+ssti${{ 7 * 7 }}
+ssti[7 * 7]
+ssti[[ 7 + 7 + 7 + 7 + 7 + 7 + 7 ]]
+ssti((7 * 7))
+ssti{{ 7 | multiply: 7 }}
+ssti#{ 7 | multiply: 7 }
+ssti<%= Math.pow(7, 2) %>
+ssti#{Math.pow(7, 2)}
+ssti{{ 7**2 }}
+ssti#{ 7**2 }
+ssti{% for i in range(7): 7 * 7 %}
+ssti{% print(7*7) %}
+ssti${{sum([7]*7)}}
+ssti${{[7]*7|length}}
+ssti${{''.join(str(7)*7)}}
+ssti((7 << 2) + 7)
+ssti{{(7 | float) * 7}}
+ssti#{{"7"*7}}
+ssti%{7*7}
+ssti{!7*7!}
+ssti@{7*7}
+ssti((7+7+7)+(7*4))
+ssti{% raw 7*7 %}
+ssti{% endraw 7*7 %}
+ssti#{7%40*7}
+ssti#{'7'*int(7)}
+ssti<%= toFixed(7*7) %>
+ssti<?php echo 7*7; ?>
+ssti<% echo(7*7); %>
+ssti${{math.multiply(7,7)}}
+ssti<% return(7*7) %>
+ssti#{7*7 | custom_filter}
+ssti{{'{7*7}' | safe}}
+ssti${{ ''.join(['7']*7) }}
+ssti((7/1)*(7-0))
+ssti[[7,7].map(a=>a*7).join('')]
+ssti#{int(str(7*7))}
+ssti${{ ''.join(chr(49+1)) }}
+ssti{{ 7*'7'|int }}
+ssti{% if 7*7 == 49 %}49{% endif %}
+ssti${{'7'*7|slice(0,7)}}
+ssti#{''.join(map(str, [7*7]))}
+ssti<%= 7*7 + 0 %>
+ssti@{(7)*7}
+ssti%{{7*7}}
+ssti{% 7*7 %}
+ssti{{ 7**2 }}
+ssti${7+6+6+6+6+6+6+6}
+ssti#{7*7+0}
+ssti<%= '7'*int(7) %>
+ssti${ 7|multiply:7 }
+ssti{% for x in [7*7] %}{{ x }}{% endfor %}
+ssti#{ 7*7 | int }
+ssti@{{7|add:42}}
+ssti%{ (7*7) }
+ssti${ (7)*(7) }
+ssti@{{ 7 << 6 }}
+ssti[[ 7 + (6 * 7) ]]
+ssti((7-2)*(7+2)+24)
+ssti((7|float())*7)
+ssti#[ int(str(7*7)) ]
+ssti{% if True %}{{ 7*7 }}{% endif %}
+ssti#{ 7 | add:42 }
+ssti${ 7**2 | int }
+ssti[7+14+21+7]
+ssti{7<<2}
+ssti(0b111 * 0b111)
+ssti{% 7 ** 2 %}
+ssti#{'7'*7}
+ssti${(7.0*7)}
+ssti@{math.pow(7,2)}
+ssti${len([7]*7)}
+ssti#{(7)*(7)}
+ssti@(7**2)
+ssti[(7/1)+(7*6)]
+ssti<<%= 7.0*7 %>>
+ssti{{[7]*7|length}}
+ssti${ 7*7+0 }
+ssti#[7*7]
+ssti{% set x = 7*7 %}{{ x }}
+ssti{% if (7*7) == 49 %}PASS{% endif %}
+ssti#{ eval('7*7') }
+ssti{{ (int)(7*7) }}
+ssti@{7 * 7 + 0}
+ssti(7*0x7)
+ssti{{ '{:d}'.format(7*7) }}
+ssti#{'7'*7}[0:7]
+ssti<%= math.sqrt(7*49) %>
+ssti#[7<<2+7]
+ssti{{ pow(7,2) }}
+ssti${{7+7*6}}
+ssti#{(7**2)}
+ssti@{{'7'*7}}
+ssti{7+7*6}
+ssti[[7]*(7|int)]
+ssti<%= ''.join(['7']*7) %>
+ssti${7**2}
+ssti{{ (7).__mul__(7) }}
+ssti#{int(7)*int(7)}
+ssti{{''.join([str(7) for _ in range(7)])}}
+ssti@{{len([7]*7)}}
+ssti${eval('7*7')}
+ssti#{[49][0]}
+ssti<%= ''.join(['49']) %>
+ssti${{[7]*7}}
+ssti@{7|int*7}
+ssti{% set x=7*7 %}{{x}}
+ssti{{[7+7 for i in range(3)]}}
+ssti#{''.join(['7']*7)}
+ssti@{{''.join(map(str, [7*7]))}}
+ssti{len('7777777')}
+ssti((7<<2)+7)
+ssti<<{{7*7}}>>
+ssti${ 0x7*0x7 }
+ssti#{ len([7]*7) }
+ssti{% set y=49 %}{{y}}
+ssti{{''.join(chr(7*7+40))}}
+ssti((7*7)|int)
+ssti${{7**2}}
+ssti#{(7*7)%100}
+ssti@{''.join([str(7*7)])}
+ssti#{'7'*7}
+ssti@{{''.join(['7'*7])}}
+ssti{(7*7)+0}
+ssti#{'49'.zfill(2)}
+ssti${len(['7']*7)}
+ssti<%= ('49') %>
+ssti@{(7+7+7)+(7*4)}
+ssti#{'7'*7}[0:7]
+ssti{{(7).__rmul__(7)}}
+ssti{{ pow(7, 2) }}
+ssti@{7*7+0}
+ssti<%= 7*(7) %>
+ssti#{7+42}
+ssti${7-(-42)}
+ssti${0b111 * 0b111}
+ssti{{(7).__add__(42)}}
+ssti<< 7*(7) >>
+ssti${len([7*7])}
+ssti[[7]*int(7)]
+ssti{{sum([7]*7)}}
+ssti#[7*7][0]
+ssti{{int('49')}}
+ssti{{'7'*int(7)}}
+ssti<%=7**2%>
+ssti@{{round(49)}}
