@@ -1,1 +1,12 @@
 amazonaws
+cloudfront
+elasticbeanstalk
+amplifyapp
+googleapis
+appspot
+firebaseapp
+cloudfunctions
+blob.core.windows
+azureedge
+azurewebsites
+database.windows
