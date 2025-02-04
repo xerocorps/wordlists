@@ -686,5 +686,49 @@
                 "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
             ]
         }
+    },
+    {
+        "id": 19,
+        "request": {
+            "method": "GET",
+            "baseURL": "https://{TARGET}.zendesk.com",
+            "path": [
+                "/"
+            ],
+            "body": null
+        },
+        "response": {
+            "statusCode": [
+                200,
+                301,
+		403
+            ],
+            "detectionFingerprints": [
+		    "Just a moment...",
+		    "zendesk.com\\/access",
+		    "redirected"],
+            "fingerprints": [
+		    "Just a moment...",
+		    "zendesk.com\\/access",
+		    "redirected"
+	    ],
+            "exclusionPatterns": [
+                "It seems the help centre at",
+                "zendesk.co.uk"
+            ]
+        },
+        "metadata": {
+            "service": "Zendesk",
+            "serviceName": "Zendesk SeviceDesk",
+            "description": "Zendesk SeviceDesk",
+            "reproductionSteps": [
+                "Visit the URL",
+                "Follow the steps in the references"
+            ],
+            "references": [
+                "https://bugology.intigriti.io/misconfig-mapper-docs/services/atlassian-jira/open-user-registration",
+                "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
+            ]
+        }
     }
 ]
