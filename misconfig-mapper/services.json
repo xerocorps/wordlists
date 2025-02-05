@@ -730,5 +730,44 @@
                 "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
             ]
         }
+    },
+    {
+        "id": 20,
+        "request": {
+            "method": "GET",
+            "baseURL": "https://{TARGET}.webflow.io",
+            "path": [
+                "/"
+            ],
+            "body": null
+        },
+        "response": {
+            "statusCode": [
+                200
+            ],
+            "detectionFingerprints": [
+		    "Surrogate-Key:"
+	    ],
+            "fingerprints": [
+		    "Surrogate-Key:"
+	    ],
+            "exclusionPatterns": [
+                "Page not found",
+                "The page you are looking for doesn't exist or has been moved."
+            ]
+        },
+        "metadata": {
+            "service": "Webflow",
+            "serviceName": "Webflow Page",
+            "description": "Webflow Page",
+            "reproductionSteps": [
+                "Visit the URL",
+                "Follow the steps in the references"
+            ],
+            "references": [
+                "https://bugology.intigriti.io/misconfig-mapper-docs/services/atlassian-jira/open-user-registration",
+                "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
+            ]
+        }
     }
 ]
