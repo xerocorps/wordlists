@@ -769,5 +769,44 @@
                 "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
             ]
         }
+    },
+    {
+        "id": 21,
+        "request": {
+            "method": "GET",
+            "baseURL": "https://{TARGET}.bubbleapps.io",
+            "path": [
+                "/"
+            ],
+            "body": null
+        },
+        "response": {
+            "statusCode": [
+                200
+            ],
+            "detectionFingerprints": [
+		    "X-Bubble-Perf:"
+	    ],
+            "fingerprints": [
+		    "X-Bubble-Perf:"
+	    ],
+            "exclusionPatterns": [
+                "live_not_supported"
+            ]
+        },
+        "metadata": {
+            "service": "bubbleapps",
+            "serviceName": "bubbleapps Page",
+            "description": "bubbleapps Page",
+            "reproductionSteps": [
+                "Visit the URL",
+                "If it redirect you to homepage bubble.io, Not the live_not_supported",
+		"check URL on waybackurl for public data"
+            ],
+            "references": [
+                "https://bugology.intigriti.io/misconfig-mapper-docs/services/atlassian-jira/open-user-registration",
+                "https://confluence.atlassian.com/adminjiraserver072/enabling-public-signup-and-captcha-828787685.html"
+            ]
+        }
     }
 ]
